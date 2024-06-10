@@ -34,7 +34,7 @@ header h1 {
     margin-right:450px;
 }
 
-.content {
+.menu {
     width: 100vw;
     height: 70px;
     display: flex;
@@ -66,7 +66,7 @@ header h1 {
     height: 100%;
 }
 
-.content .list-menu {
+.menu .list-menu {
     width: 600px;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ header h1 {
     right:300px;
 }
 
-.content .list-menu li a{
+.menu .list-menu li a{
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
@@ -87,7 +87,7 @@ header h1 {
     transition: all 200ms ease-in;
 }
 
-.content .list-menu li a:hover{
+.menu .list-menu li a:hover{
     background-color: #333333;
     border-bottom: 4px solid #437C47;  
     color: #437C47;
@@ -95,7 +95,7 @@ header h1 {
 
 /* Primeira Seção */
 
-.first-section{
+.home{
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(img/rustic-meat-pie-baked-with-savory-onions-generated-by-ai.jpg);
@@ -109,7 +109,7 @@ header h1 {
     align-items: center;
 }
 
-.first-section .conteudo-principal{
+.home .conteudo-principal{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +117,7 @@ header h1 {
 
 }
 
-.first-section h1{
+.home h1{
     color: #A88B6B ;
     font-size: 6rem;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ header h1 {
     font-family: 'Indie Flower', cursive;
 }
 
-.first-section h2{
+.home h2{
     color: rgb(177, 177, 177);
     font-size: 3rem;
     font-weight: 400;
@@ -162,7 +162,7 @@ header h1 {
 
 /* Cardápio */
 
-.cardapio {
+.lanchonete {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -174,14 +174,14 @@ header h1 {
     background-size: cover;
 }
 
-.cardapio h2 {
+.lanchonete h2 {
     font-size: 5rem;
     color: #e6e6e6;
     text-transform: uppercase;
     margin:50px 0 30px 0;
 }
 
-.itens-cardapio {
+.itens-lanchonete {
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -192,7 +192,7 @@ header h1 {
     gap: 30px;
 }
 
-.itens-cardapio .info {
+.itens-lanchonete .info {
     background-color: rgb(221, 221, 221);
     border: none;
     display: flex;
@@ -202,14 +202,14 @@ header h1 {
     padding: 1.5rem;
 }
 
-.itens-cardapio .info h3 {
+.itens-lanchonete .info h3 {
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     text-decoration: underline;
 }
 
-.itens-cardapio .info h4 {
+.itens-lanchonete .info h4 {
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 0.6rem;
@@ -220,40 +220,40 @@ header h1 {
     margin-left: 6rem;
 }
 
-.itens-cardapio .info h4 span{
+.itens-lanchonete .info h4 span{
     font-size: 1.6rem;
     color:#585858;
     margin-left: 1.5rem;
     text-decoration: underline;
 }
 
-.itens-cardapio div {
+.itens-lanchonete div {
     background-color: #5e5252;
     box-shadow: 0px 0px 4px 1px ;
 }
 
-.itens-cardapio img {
+.itens-lanchonete img {
     width: 100%;
     height: 300px;
 }
 
 .bolinhoDeQueijo {
-    width:360px;
+    width:320px;
     height:400px;
 }
 
 .tortas {
-    width:360px;
+    width:320px;
     height:400px;
 }
 
 .fotosDaLanchonete2 {
-    width:360px;
+    width:320px;
     height:300px;
 }
 
 .fotosDaLanchonete3 {
-    width:360px;
+    width:320px;
     height:300px;
 }
 
@@ -261,11 +261,11 @@ header h1 {
     margin:0 auto;
 }
 
-.itens-cardapio .info .pedir {
+.itens-lanchonete .info .pedir {
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
-    background-color: #ffc506;
+    background-color: #a88b6bba;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
@@ -273,7 +273,7 @@ header h1 {
     transition: all 200ms ease-in;
 }
 
-.itens-cardapio .info .pedir:hover {
+.itens-lanchonete .info .pedir:hover {
     background-color: #437C47;
     color: rgb(255, 255, 255);
 }
