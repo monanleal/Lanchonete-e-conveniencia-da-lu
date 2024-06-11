@@ -397,12 +397,12 @@ footer {
 }
 
 @media (max-width: 870px) {
-    .content {
+    .menu {
         justify-content: space-between;
         padding: 0px 40px;
     }
 
-    .content .list-menu{
+    .menu .list-menu{
         display: none;
     }
 
@@ -424,7 +424,7 @@ footer {
 
     }
 
-    .content.on {
+    .menu.on {
         position: absolute;
         top: 0;
         left: 0;
@@ -438,42 +438,42 @@ footer {
         align-items: center;
     }
 
-    .content.on .logo {
+    /* .content.on .logo {
         display: none;
-    }
+    } */
 
-    .content.on .menu-toggle {
+    .menu.on .menu-toggle {
         position: absolute;
         right: 40px;
         top: 20px;
     }
 
-    .content.on .list-menu {
+    .menu.on .list-menu {
         display: block;
         
     }
 
-    .content.on .list-menu li {
+    .menu.on .list-menu li {
         text-align: center;
         display: flex;
         justify-content: center;
         
     }
 
-    .content.on .list-menu li a {
+    .menu.on .list-menu li a {
         font-size: 4rem;
         display: block;
     }
 
 
-    .content.on .menu-toggle .one {
+    .menu.on .menu-toggle .one {
         transform: rotate(45deg) translate(8px, -7px);
     }
-    .content.on .menu-toggle .two {
+    .menu.on .menu-toggle .two {
         opacity: 0;
     }
 
-    .content.on .menu-toggle .three {
+    .menu.on .menu-toggle .three {
         transform: rotate(-45deg) translate(20px, -6px);
     }
 
@@ -510,12 +510,6 @@ footer {
         width: 400px;
      }
 
-     .btn {
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-     }
-
      .contatos-secao {
        width: 200px;
         
@@ -532,6 +526,19 @@ footer {
 
 @media (max-width: 399px) {
 
+    .logo {
+        width: 70px;
+        height: auto;
+        cursor: pointer;
+        display: inline-block;
+        align-items: center;
+    }
+
+    header h1 {
+        position:relative;
+        left:-10px;
+    }
+
     .conteudo-principal h1 {
        font-size: 3rem;
     }
@@ -539,6 +546,16 @@ footer {
        font-size: 2rem;
     }
 
+    .contentsobre {
+        margin-bottom:-40px;
+        margin-top: 40px;
+    }
+
+    .contentsobre p {
+        text-align: center;
+        width: 280px;
+        
+     }
 
     .sobre-nos img {
         width: 300px;
@@ -546,11 +563,19 @@ footer {
         margin-left: 10px;
     }
 
-    .contentsobre p {
-        text-align: center;
-        width: 200px;
+     .itens-lanchonete img {
+        height:220px
      }
 
+     .bolinhoDeQueijo {
+        width:240px;
+        height:310px
+     }
+
+     .tortas {
+        width:240px;
+        height:310px
+     }
     
 }
 
