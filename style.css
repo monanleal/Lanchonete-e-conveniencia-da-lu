@@ -31,15 +31,19 @@ body {
 header h1 {
     color:#fff;
     font-size:17px;
-    margin-right:450px;
+    position:relative;
+    left:91px;
+    bottom:44px;
+    /* margin-right:300px; */
+
 }
 
 .menu {
     width: 100vw;
     height: 70px;
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
     background-color: #A88B6B;
     position: fixed;
     padding-left: 30rem;
@@ -49,8 +53,8 @@ header h1 {
     width: 70px;
     height: auto;
     cursor: pointer;
-    display: flex;
-    align-items: center;
+    margin-right:20px;
+    margin-top:9px;
 }
 
 
@@ -62,17 +66,19 @@ header h1 {
 
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    width: 90px;
+    height: 50px;
 }
 
 .menu .list-menu {
     width: 600px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: relative;
-    right:300px;
+    float:right;
+    /* align-items: center;
+    margin-right:500px; */
+    right:200px;
+    bottom:72px;
 }
 
 .menu .list-menu li a{
@@ -88,9 +94,9 @@ header h1 {
 }
 
 .menu .list-menu li a:hover{
-    background-color: #333333;
-    border-bottom: 4px solid #437C47;  
-    color: #437C47;
+    background-color: #A88B6B;
+    border-bottom: 4px solid #1D1918; 
+    color: #A88B6B;
 }
 
 /* Primeira Seção */
@@ -139,25 +145,23 @@ header h1 {
     height: 60px;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #A88B6B  ;
+    background-color: #A88B6B;
     border-radius: 10px;
     color: black;
     font-weight: 700;
     transition: all 400ms ease-in;
     margin: 5rem auto;
+    display:block;
 }
 
 .btn button:hover {
-    border: 1px solid #437C47;
+    border: 1px solid #1D1918;
     background-color: transparent;
-    color: #437C47;
+    color: #1D1918;
 }
 
 .btn {
     width: 480px;
-    display: flex;
-    justify-content: space-between;
-   
 }
 
 /* Cardápio */
@@ -274,7 +278,7 @@ header h1 {
 }
 
 .itens-lanchonete .info .pedir:hover {
-    background-color: #437C47;
+    background-color: #1D1918;;
     color: rgb(255, 255, 255);
 }
 
@@ -328,14 +332,16 @@ header h1 {
 .contatos {
     width: 100%;
     background-color: #A88B6B;
-    display: flex;
-    flex-direction: column;
-    justify-content: Center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: Center; */
+    /* align-items: center; */
     font-size: 1.8rem;
     color: white;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     margin-top:70px;
+    padding: 50px 280px;
+    height:400px;
 }
 
 .contatos h3 {
@@ -346,27 +352,60 @@ header h1 {
 
 .contatos-secao {
     width: 650px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     font-size: 2rem;
 }
 
 .contatos-secao i{
     margin-right: 1rem;
-
+    margin-top:10px;
 }
 
 .contatos-secao div{
     cursor: pointer;
+
 }
 
 .contatos-secao div:hover{
-    color:#437C47;
+    color:#1D1918;;
+}
+
+.faleConosco {
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #1D1918;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    margin: 5rem auto;
+    display:block;
+    padding:8px;
+}
+
+.faleConosco:hover {
+    border: 1px solid #1D1918;
+    background-color: transparent;
+    /* color: #1D1918; */
+}
+
+.faleConosco button {
+    padding:5px;
+    
+}
+
+.faleConosco img {
+    position:relative;
+    top:2px;
+    margin-right:4px;
 }
 
 footer {
     height: 25px;
-    background-color: #A88B6B;
+    background-color: #1D1918;
     color: rgb(255, 255, 255);
     font-size: 1.4rem;
     display: flex;
@@ -491,12 +530,12 @@ footer {
 
 }
 
-
 @media (max-width: 720px) {
     .conteudo-principal h1 {
         width: 350px;
         text-align: center;
     }
+    
 }
 
 @media (max-width: 645px) {
@@ -526,13 +565,6 @@ footer {
 
 @media (max-width: 399px) {
 
-    .logo {
-        width: 70px;
-        height: auto;
-        cursor: pointer;
-        display: inline-block;
-        align-items: center;
-    }
 
     header h1 {
         position:relative;
