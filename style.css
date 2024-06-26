@@ -575,7 +575,7 @@ footer {
 @media (max-width: 399px) {
 
     .home {
-        background-image: url(img/Design\ sem\ nome\ \(10\).png);
+        background-image: url(img/Design\ sem\ nome\ \(11\).png);
     }
 
     .menu-toggle {
@@ -595,6 +595,11 @@ footer {
     header h1 {
         position:relative;
         left:60px;
+    }
+
+    .btn button {
+        width: 190px;
+        height: 47px;
     }
 
     .conteudo-principal h1 {
