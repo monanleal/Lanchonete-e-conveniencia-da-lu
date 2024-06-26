@@ -574,6 +574,10 @@ footer {
 
 @media (max-width: 399px) {
 
+    .home {
+        background-image: url(img/Design\ sem\ nome\ \(10\).png);
+    }
+
     .menu-toggle {
         right:-15px;
     }
@@ -650,13 +654,13 @@ footer {
         height:190px;
         float:none;
         top:45px;
-        right:-60px;
+        right:-64px;
      }
 
      .faleConosco{
         width: 220px;
         display:block;
-        margin:10px -29px 0;
+        margin:10px -27px 0;
      }
 }
 
